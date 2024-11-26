@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Dicionário</title>
+</head>
+<body class="bg-black">
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid justify-content-center">
+                
+              <h1 class="navbar-brand" href="#" onclick="clickMain()"><img class="img-titulo" src="../img/text.gif" alt="" srcset=""></h1>
+            </div>
+            <div class="container-fluid justify-content-center" >
+                <h1 class="menu-text text-white">Selecione uma letra:</h1>
+            </div>
+            <div class="menu-text container-fluid justify-content-center">
+                <a class="navbar-brand btn-outline-dark" href="#" onclick="clickA()">A</a>
+                <a class="navbar-brand" href="#" onclick="clickB()">B</a>
+                <a class="navbar-brand" href="#" onclick="clickC()">C</a>
+                <a class="navbar-brand" href="#" onclick="clickD()">D</a>
+                <a class="navbar-brand" href="#" onclick="clickE()">E</a>
+                <a class="navbar-brand" href="#" onclick="clickF()">F</a>
+                <a class="navbar-brand" href="#" onclick="clickG()">G</a>
+                <a class="navbar-brand" href="#" onclick="clickH()">H</a>
+                <a class="navbar-brand" href="#" onclick="clickI()">I</a>
+                <a class="navbar-brand" href="#" onclick="clickL()">L</a>
+                <a class="navbar-brand" href="#" onclick="clickM()">M</a>
+                <a class="navbar-brand" href="#" onclick="clickN()">N</a>
+                <a class="navbar-brand" href="#" onclick="clickP()">P</a>
+                <a class="navbar-brand" href="#" onclick="clickQ()">Q</a>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+        <div id="body" class="container-lg">
+            <div  class="row">
+                <div class="col d-flex flex-column mt-8 justify-content-center align-items-center">
+                    <h1 id="palavra" class="text-uppercase text-danger">Bem vindo(a), selecione uma letra!</h1>
+                    <div class="image-audio-container">
+                        <img id="image" src="../img/main.gif" alt="image" srcset="" class="img-thumbnail mw-50 h-50">
+                        <audio id="audioPronuncia" controls></audio>
+                    </div>
+                    <p id="texto1" class="text-white"></p>
+                    <p id="texto2" class="text-white"></p>
+                    <p id="traducao" class="text-white"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0);">
+          
+          <a class="text-danger" href="https://github.com/pietro-ramos"> © 2024 Copyright: Pietro Ramos</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
